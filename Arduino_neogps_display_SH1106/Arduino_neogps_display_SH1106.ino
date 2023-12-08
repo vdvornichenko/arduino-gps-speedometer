@@ -2,7 +2,7 @@
 #include <TinyGPS++.h>
 #include <TimeLib.h>
 #define OLED_RESET -1        //Reset pin # (or -1 if sharing Arduino reset pin)
-#define TIMEZONE_OFFSET 3        //Reset pin # (or -1 if sharing Arduino reset pin)
+#define TIMEZONE_OFFSET 3    
 #define SCREEN_ADDRESS 0x3C  //See datasheet for Address
 Adafruit_SH1106 display(OLED_RESET);
 TinyGPSPlus gps;
